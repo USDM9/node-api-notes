@@ -8,6 +8,8 @@ app.use(express.json())
 
 // Middleware cors
 
+app.use(express.static('build'))
+
 app.use(cors())
 
 // Middlewere
